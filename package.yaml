@@ -33,6 +33,11 @@ ghc-options:
 - -Wpartial-fields
 - -Wredundant-constraints
 
+default-extensions:
+  DeriveTraversable
+  DerivingStrategies
+  OverloadedStrings
+
 library:
   source-dirs: src
 
